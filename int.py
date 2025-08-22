@@ -2,7 +2,7 @@
 number = 100
 print(100)
 
-#=====================there has three type of data type like ===> int , float , complexe
+#=============there has three type of data type like ===> int , float , complexe
 
 x = 100
 y = 10.5

@@ -1,23 +1,36 @@
 #==================================today i will learn String
 #To declare String we need to saraounded the string by either single quat or double quat
 
-name = "this is topu chandra ray"
+name = "Phython Guru"
 print(name)
 
 
 # ==================to get string length
 print(len(name))
 
-# ==================to get index wise string data
-print(name[2])
-# =================checking specific data using in and not in operator
-print("ray" in name)
-print("ray" not in name)
 
-# ================to implement for loop in a string
-for x in name:
-    print(x)
+# ==================================================== String 
 
-# ===============get range of charecters
-rangeData = "Python"
-print(rangeData[1:3])
+# ===================slicing
+txt = "Banana Fruit"
+print(txt[3:6])
+print(txt[:6])
+print(txt[7:])
+print(txt[-4:])
+
+
+# ===================string built in method
+# uppercase=========upper()
+# lowercase=========lower()
+# white space=========strip()
+# replace charecter=========replace()
+# charecter wise devide =========split()
+
+
+fruit = " Ban,ana "
+print(fruit.upper())
+print(fruit.lower())
+print(fruit.strip())
+print(fruit.split(","))
+print(fruit.replace("a","n"))
+

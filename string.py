@@ -1,36 +1,45 @@
-#==================================today i will learn String
-#To declare String we need to saraounded the string by either single quat or double quat
+# #==================================today i will learn String
+# #To declare String we need to saraounded the string by either single quat or double quat
 
-name = "Phython Guru"
-print(name)
-
-
-# ==================to get string length
-print(len(name))
+# name = "Phython Guru"
+# print(name)
 
 
-# ==================================================== String 
-
-# ===================slicing
-txt = "Banana Fruit"
-print(txt[3:6])
-print(txt[:6])
-print(txt[7:])
-print(txt[-4:])
+# # ==================to get string length
+# print(len(name))
 
 
-# ===================string built in method
-# uppercase=========upper()
-# lowercase=========lower()
-# white space=========strip()
-# replace charecter=========replace()
-# charecter wise devide =========split()
+# # ==================================================== String 
+
+# # ===================slicing
+# txt = "Banana Fruit"
+# print(txt[3:6])
+# print(txt[:6])
+# print(txt[7:])
+# print(txt[-4:])
 
 
-fruit = " Ban,ana "
-print(fruit.upper())
-print(fruit.lower())
-print(fruit.strip())
-print(fruit.split(","))
-print(fruit.replace("a","n"))
+# # ===================string built in method
+# # uppercase=========upper()
+# # lowercase=========lower()
+# # white space=========strip()
+# # replace charecter=========replace()
+# # charecter wise devide =========split()
+
+
+# fruit = " Ban,ana "
+# print(fruit.upper())
+# print(fruit.lower())
+# print(fruit.strip())
+# print(fruit.split(","))
+# print(fruit.replace("a","n"))
+
+
+
+# ======================================string method
+text = "topu Chandra Roy"
+print(text.capitalize())
+print(text.casefold())
+print(text.center(30,"@"))
+print(text.count("j"))
 

@@ -1,5 +1,7 @@
-name = "topu"
-age = 22
-position = "Pythoin Developer"
+print("my journy is start for learning python for backend")
+age = 20
 
-print("name :",name,"\n", "Age:",age ,"\n","Position:",position)
+if age>22:
+    print("you are sabalok")
+if age<22:
+    print("you are nabalok")
